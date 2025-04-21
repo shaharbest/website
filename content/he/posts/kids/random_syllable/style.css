@@ -1,0 +1,33 @@
+#letter {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: clamp(120px, 80vw, 800px);
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+  line-height: 1;
+}
+
+.toggle {
+  background-color: #6c757d;
+  font-size: 36px;
+  padding: 8px 16px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.toggle:hover {
+  background-color: #495057;
+}
+
+#letter:focus,
+#letter:active {
+  outline: none;
+  background-color: transparent;
+}

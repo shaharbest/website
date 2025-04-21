@@ -2,7 +2,7 @@
 title: הברה אקראית
 ---
 
-תלחץ על האות כדי לקבל הברה אקראית חדשה
+תלחץ על האות כדי לקבל הברה חדשה
 
 <link type="text/css" rel="stylesheet" href="style.css" />
 <script src="script.js" defer></script>

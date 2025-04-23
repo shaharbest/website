@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 7410 3900">
+  <path d="M0,0h7410v3900H0" fill="#b31942" />
+  <path d="M0,450H7410m0,600H0m0,600H7410m0,600H0m0,600H7410m0,600H0" stroke="#FFF" stroke-width="300" />
+  <path d="M0,0h2964v2100H0" fill="#0a3161" />
+  <defs>
+    <g id="star">
+      <path d="M247,90 317.534230,307.082039 132.873218,172.917961H361.126782L176.465770,307.082039z" />
+    </g>
+    <g id="oddRow" fill="#FFF">
+      <use xlink:href="#star" x="0" y="0"/>
+      <use xlink:href="#star" x="494" y="0"/>
+      <use xlink:href="#star" x="988" y="0"/>
+      <use xlink:href="#star" x="1482" y="0"/>
+      <use xlink:href="#star" x="1976" y="0"/>
+      <use xlink:href="#star" x="2470" y="0"/>
+    </g>
+    <g id="evenRow" fill="#FFF">
+      <use xlink:href="#star" x="247" y="0"/>
+      <use xlink:href="#star" x="741" y="0"/>
+      <use xlink:href="#star" x="1235" y="0"/>
+      <use xlink:href="#star" x="1729" y="0"/>
+      <use xlink:href="#star" x="2223" y="0"/>
+    </g>
+  </defs>
+  <g id="row1" transform="translate(0, 0)">
+    <use xlink:href="#oddRow" />
+  </g>
+  <g id="row2" transform="translate(0, 210)">
+    <use xlink:href="#evenRow" />
+  </g>
+  <g id="row3" transform="translate(0, 420)">
+    <use xlink:href="#oddRow" />
+  </g>
+  <g id="row4" transform="translate(0, 630)">
+    <use xlink:href="#evenRow" />
+  </g>
+  <g id="row5" transform="translate(0, 840)">
+    <use xlink:href="#oddRow" />
+  </g>
+  <g id="row6" transform="translate(0, 1050)">
+    <use xlink:href="#evenRow" />
+  </g>
+  <g id="row7" transform="translate(0, 1260)">
+    <use xlink:href="#oddRow" />
+  </g>
+  <g id="row8" transform="translate(0, 1470)">
+    <use xlink:href="#evenRow" />
+  </g>
+  <g id="row9" transform="translate(0, 1690)">
+    <use xlink:href="#oddRow" />
+  </g>
+</svg>
